@@ -8,9 +8,9 @@ import javax.swing.tree.VariableHeightLayoutCache;
 
 import org.junit.Test;
 
-import lego.BoiteLego;
+import lego.Boite;
 
-public class TestBoiteLego {
+public class TestBoite {
 
 	@Test
 	void testConstructor() {
@@ -18,7 +18,7 @@ public class TestBoiteLego {
 		var number = 21318; 
 		var name = "La cabane dans l'arbre";
 		//when
-		var boite =  new BoiteLego(number, name);
+		var boite =  new Boite(number, name);
 		//then
 		assertAll(
 		() -> assertEquals(number,boite.getNumber(), "number"),

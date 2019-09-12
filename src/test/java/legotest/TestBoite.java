@@ -24,7 +24,7 @@ public class TestBoite {
 		assertAll(
 		() -> assertEquals(number,boite.getNumber(), "number"),
 		() -> assertEquals(name,boite.getName(), "name"),
-		() -> assertEquels(pieces,boite.getpieces(),"pieces")
+		() -> assertEquals(pieces,boite.getpieces(),"pieces")
 		);
 	}
 

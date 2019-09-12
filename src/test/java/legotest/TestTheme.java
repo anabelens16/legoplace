@@ -6,14 +6,6 @@ import org.junit.Test;
 
 public class TestTheme {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 
-}
 
-	@test
-	public void test() {
-		fail("Nope, nope nope")
 	}

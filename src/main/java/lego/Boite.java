@@ -3,6 +3,8 @@ package lego;
 public class Boite {
    private int  number;
    private String name;
+   private int pieces;
+   private int figurines;
    
    public Boite(int number, String name) {
 		super();
@@ -23,7 +25,7 @@ public void setName(String name) {
 	this.name = name;
 }
 
-  private int pieces;
+  
 
 public Boite(int pieces) {
 	super();
@@ -37,7 +39,15 @@ public int getPieces() {
 public void setPieces(int pieces) {
 	this.pieces = pieces;
 }
+
+public int getFigurines() {
+	return figurines;
+}
+
+public void setFigurines(int figurines) {
+	this.figurines = figurines;
+}
   
-  
+	
    
 }

@@ -13,7 +13,7 @@ public class TestTheme {
 
 }
 
-	@test
+	@Test
 	public void test() {
 		fail("Nope, nope nope")
 	}

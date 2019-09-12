@@ -1,9 +1,9 @@
 package lego;
 
 public class Boite {
-   private int  number;
-   private String name;
-   private int pieces;
+   private static int  number;
+   private static String name;
+   private static int pieces;
    private int figurines;
    
    public Boite(int number, String name) {
@@ -48,6 +48,6 @@ public void setFigurines(int figurines) {
 	this.figurines = figurines;
 }
   
-	
+
    
 }

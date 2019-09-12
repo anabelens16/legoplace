@@ -18,6 +18,7 @@ public class TestBoite {
 		var number = 21318; 
 		var name = "La cabane dans l'arbre";
 		var pieces = 3036;
+		var figurines = 2;
 		//when
 		var boite =  new Boite(number, name);
 		//then

@@ -17,12 +17,14 @@ public class TestBoite {
 		//given
 		var number = 21318; 
 		var name = "La cabane dans l'arbre";
+		var pieces = 3036;
 		//when
 		var boite =  new Boite(number, name);
 		//then
 		assertAll(
 		() -> assertEquals(number,boite.getNumber(), "number"),
-		() -> assertEquals(name,boite.getName(), "name")
+		() -> assertEquals(name,boite.getName(), "name"),
+		() -> assertEquels(pieces,boite.getpieces(),"pieces")
 		);
 	}
 

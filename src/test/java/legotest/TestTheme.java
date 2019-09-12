@@ -12,3 +12,8 @@ public class TestTheme {
 	}
 
 }
+
+	@test
+	public void test() {
+		fail("Nope, nope nope")
+	}

@@ -23,6 +23,21 @@ public void setName(String name) {
 	this.name = name;
 }
 
-   
+  private int pieces;
+
+public Boite(int pieces) {
+	super();
+	this.pieces = pieces;
+}
+
+public int getPieces() {
+	return pieces;
+}
+
+public void setPieces(int pieces) {
+	this.pieces = pieces;
+}
+  
+  
    
 }

@@ -48,6 +48,9 @@ public void setFigurines(int figurines) {
 	this.figurines = figurines;
 }
   
-
+@Override
+public String toString() {
+	return "LEGO3" + number + "-" + name;
+}
    
 }
